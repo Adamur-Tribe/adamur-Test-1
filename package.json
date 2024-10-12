@@ -1,0 +1,27 @@
+{
+  "name": "adamur-scholarship",
+  "version": "1.0.0",
+  "description": "Backend user management system for the Adamur scholarship project",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "apollo-server-express": "^3.14.0",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "graphql": "^15.5.0",
+    "nodemailer": "^6.6.0",
+    "prisma": "^3.12.0",
+    "jsonwebtoken": "^8.5.1",
+    "@prisma/client": "^3.12.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "author": "Purity",
+  "license": "ISC"
+}
+
